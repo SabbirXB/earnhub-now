@@ -1,0 +1,26 @@
+{
+  "name": "earnhub-backend",
+  "version": "1.0.0",
+  "description": "EarnHub Backend API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "earnhub"
+  ],
+  "author": "EarnHub",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
